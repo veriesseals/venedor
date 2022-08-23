@@ -3,7 +3,7 @@
 }
 
 /* ------------------------------------------------- */
-/* Header */
+/* Top Header */
 
 .top-header {
     width: 100%;
@@ -21,9 +21,18 @@
     color: aqua;
 }
 
+/* ------------------------------------------------- */
+/*  Bottom Header */
+
 #bottom-header-button-box {
     margin-top: 30px;
 }
+
+/* #search-here{
+    margin-left: 40px;
+} */
+
+
 /* ------------------------------------------------- */
 /*  Mid Nav */
 
@@ -34,9 +43,15 @@
     padding: 0;
 }
 
-/* #mid-nav-list-items{
-    justify-content: space-between;
-} */
+/* ------------------------------------------------- */
+/*  Main Carousel */
+
+#slide-show-box{
+    padding-top: 10px;
+}
+
+/* ------------------------------------------------- */
+/*  Section 4 */
 
 #sect-4-cont{
     width: 100%;
@@ -47,6 +62,9 @@
     padding: 5px;
 }
 
+/* ------------------------------------------------- */
+/* Cards Section 5 */
+
 hr{
     margin-top: 25px;
     width: 600px;
@@ -55,4 +73,12 @@ hr{
 
 #latest-button button{
     margin-bottom: 5px;
+}
+
+
+/* ------------------------------------------------- */
+/* Cards Section 6 */
+
+.card-body p {
+    text-align: center;
 }
