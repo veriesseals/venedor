@@ -1,0 +1,58 @@
+* {
+    outline: 1px dotted red;
+}
+
+/* ------------------------------------------------- */
+/* Header */
+
+.top-header {
+    width: 100%;
+    padding-top: 10px;
+}
+
+#top-nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content:between;
+    
+}
+
+.header-text-blue {
+    color: aqua;
+}
+
+#bottom-header-button-box {
+    margin-top: 30px;
+}
+/* ------------------------------------------------- */
+/*  Mid Nav */
+
+#mid-nav-nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* #mid-nav-list-items{
+    justify-content: space-between;
+} */
+
+#sect-4-cont{
+    width: 100%;
+}
+
+.image-ad img{
+    width: 300px;
+    padding: 5px;
+}
+
+hr{
+    margin-top: 25px;
+    width: 600px;
+    border: .5px solid rgb(84, 84, 84);
+}
+
+#latest-button button{
+    margin-bottom: 5px;
+}
