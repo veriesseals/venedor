@@ -54,6 +54,7 @@
 /*  Section 4 */
 
 #sect-4-cont{
+    margin-top: 25px;
     width: 100%;
 }
 
@@ -63,11 +64,25 @@
 }
 
 /* ------------------------------------------------- */
-/* Cards Section 5 */
+/* Cards Sizing and Section 5 */
 
-hr{
+#sect-5-cont{
+    margin-top: 50px;
+}
+
+#discount-cards{
+    height: 135px;
+}
+
+#card-image{
+    width: 220px;
+    height: 200px;
+}
+
+
+hr {
     margin-top: 25px;
-    width: 600px;
+    width: 530px;
     border: .5px solid rgb(84, 84, 84);
 }
 
@@ -75,10 +90,51 @@ hr{
     margin-bottom: 5px;
 }
 
+/* ------------------------------------------------- */
+/* Verticle Slash */
+
+.vert-slash {
+    color: aqua;
+}
+
 
 /* ------------------------------------------------- */
 /* Cards Section 6 */
 
+#sect-6-cont{
+    margin-top: 25px;
+}
+
 .card-body p {
     text-align: center;
 }
+
+/* ------------------------------------------------- */
+/* Section 7 */
+
+#sect-7-cont{
+    margin-top: 50px;
+}
+
+.computer-image {
+    margin-top: 50px;
+    width: 415px;
+    height: auto;
+}
+
+
+/* ------------------------------------------------- */
+/* Section 8 */
+
+#sect-8-cont{
+    margin-top: 50px;
+}
+
+/* ------------------------------------------------- */
+/* Section 9 */
+
+#sect-9-cont{
+    margin-top: 50px;
+}
+
+
