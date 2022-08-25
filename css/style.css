@@ -43,6 +43,14 @@
     padding: 0;
 }
 
+#mag-glass{
+    margin-right: 220px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
 /* ------------------------------------------------- */
 /*  Main Carousel */
 
@@ -181,3 +189,22 @@ hr {
 
 /* ------------------------------------------------- */
 /* Section 12 */
+
+#sect-12-cont{
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #d6d6d6;
+}
+
+#enter-email-search{
+    border-radius: 4px;
+    border: 2px solid yellow;
+}
+
+/* ------------------------------------------------- */
+/* Section 13 */
+
+#sect-13-cont ul{
+    list-style-type: square;
+}
