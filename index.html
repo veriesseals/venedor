@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row">
                 <!-- left col -->
-                <div class="col-md-6 justify-content-md-between">
+                <div id="top-nav" class="col-md-6 justify-content-md-between">
                     <a href="#link">My Wishlist</a>
                     <a href="#link">My Account</a>
                     <a href="#link">Shopping Cart</a>
@@ -34,15 +34,21 @@
         <div class="container">
             <div class="row">
                 <!-- left col -->
-                <div id="bottom-header-image-box" class="col-md-8">
+                <div id="bottom-header-image-box" class="col-md-6">
                     <img src="img/venedor-logo.jpg" alt="">
                 </div>
                 
                 <!-- right col -->
-                <div id="bottom-header-button-box" class="col-md-4 justify-content-md-end">
+                <div id="bottom-header-button-box" class="col-md-6 d-flex justify-content-md-end">
+                    <div>
                     <button type="button" class="btn btn-secondary btn-sm" class="bottom-header-button">US Dollar</button>
                     <button type="button" class="btn btn-secondary btn-sm" class="bottom-header-button">English</button>
-                    <button class="bottom-header-button">Items</button>
+                    </div>
+                    <div>
+                        <p>0 items(s)-$0.00</p>
+                    </div>
+                    
+                    
                 </div>
             </div>
         </div>
@@ -52,8 +58,8 @@
     <section class="mid-nav">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="col-md-8 d-flex justify-content-md-between">
+                <div class="col-md-12 d-flex">
+                    <div class="col-md-5 d-flex justify-content-md-between">
                         <a href="#link">Fashion</a>
                         <a href="#link">Electronics</a>
                         <a href="#link">Gifts</a>
@@ -62,16 +68,17 @@
                         <a href="#link">Music</a>
                     </div>
 
-                    <div id="search-box" class="col-md-4 d-flex">
-                        <input type="text" placeholder="Search here...">
-                        <div id="mag-glass">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                            </svg>
-                        </div> 
+                    <div id="search-box" class="col-md-6">
+                    <input type="text" placeholder="Search here...">
                     </div>
+
+                    <div id="mag-glass" class="col-md-1 justify-content-md-end">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </div>
+                </div>
             </div>
-        </div>
     </section>
     
     <!-- Main -->
@@ -161,7 +168,7 @@
                     <div class="row row-cols-1 row-cols-md-4 g-4">
                         <div class="col">
                           <div class="card">
-                            <img src="/img/braclets.jpg" class="card-img-top" alt="..." id="card-image">
+                            <img src="/img/braclets.jpg" class="card-img-top" alt="...">
                                 <div id="discount-cards" class="card-body">
                                     <p class="stars">
                                         
@@ -189,23 +196,23 @@
                                     <h5 class="card-title">Jewelry Bracelet Cara Acessories</h5>
                                     
                                 </div>
-                                <button type="button" class="btn btn-secondary btn-sm">ADD TO CART</button>
+                                <button type="button" class="btn btn-secondary btn-sm add-to-cart">ADD TO CART</button>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                            <img src="/img/coat.jpg" class="card-img-top" alt="..." id="card-image">
+                            <img src="/img/coat.jpg" class="card-img-top" alt="...">
                                 <div id="discount-cards" class="card-body">
                                     <p class="card-text">&nbsp;</p>
                                     <h5 class="card-title">Jessica London Short Trench Coat</h5>
                                 </div>
 
-                                <button type="button" class="btn btn-secondary btn-sm">ADD TO CART</button>
+                                <button type="button" class="btn btn-secondary btn-sm add-to-cart">ADD TO CART</button>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                                <img src="/img/gloves.jpg" class="card-img-top" alt="..." id="card-image">
+                                <img src="/img/gloves.jpg" class="card-img-top" alt="...">
                                 <div id="discount-cards" class="card-body">
                                     <p class="card-text">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -231,12 +238,12 @@
                                     <h5 class="card-title">Mocca Stretch Leather Gloves</h5>
                                 </div>
 
-                                <button type="button" class="btn btn-secondary btn-sm">ADD TO CART</button>
+                                <button type="button" class="btn btn-secondary btn-sm add-to-cart">ADD TO CART</button>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                                <img src="/img/knitted-sweater.jpg" class="card-img-top" alt="..." id="card-image">
+                                <img src="/img/knitted-sweater.jpg" class="card-img-top" alt="...">
                                 <div id="discount-cards" class="card-body">
                                     <p class="card-text">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -261,7 +268,7 @@
                                     </p>
                                     <h5 class="card-title">Limited Edition Knitted Sweater</h5>
                                 </div>
-                                <button type="button" class="btn btn-secondary btn-sm">ADD TO CART</button>
+                                <button type="button" class="btn btn-secondary btn-sm add-to-cart">ADD TO CART</button>
                             </div>
                         </div>
                     </div>
@@ -447,16 +454,15 @@
                 <div id="sect-11-cont" class="container">
                     <div class="row">
                         <div class="brand-logo-box">
-                            <div class="col-md-12 d-flex">
-                            <img src="/img/brand-logo.jpg" alt="" class="brand-logo">
-                            <img src="/img/brand-logo.jpg" alt="" class="brand-logo">
-                            <img src="/img/brand-logo.jpg" alt="" class="brand-logo">
-                            <img src="/img/brand-logo.jpg" alt="" class="brand-logo">
-                            <img src="/img/brand-logo.jpg" alt="" class="brand-logo">
-                            <img src="/img/brand-logo.jpg" alt="" class="brand-logo">
+                            <div class="col-md-10 d-flex justify-content-md-between">
+                                <img src="/img/brand-logo.jpg" alt="" class="brand-logo">
+                                <img src="/img/brand-logo.jpg" alt="" class="brand-logo">
+                                <img src="/img/brand-logo.jpg" alt="" class="brand-logo">
+                                <img src="/img/brand-logo.jpg" alt="" class="brand-logo">
+                                <img src="/img/brand-logo.jpg" alt="" class="brand-logo">
+                                <img src="/img/brand-logo.jpg" alt="" class="brand-logo">
+                            </div>
                         </div>
-
-                    </div>
                     
                 </div>
             </section>
@@ -484,7 +490,7 @@
             <section class="section13">
                 <div id="sect-13-cont" class="container">
                     <div class="row">
-                        <div id="sect-13-cont" class="col-md-2">
+                        <div class="col-md-2">
                             <h5>MY ACCOUNT</h5>
                             <ul>
                                 <li>My account</li>
@@ -512,7 +518,7 @@
                             
                             
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div>
                                 <h5>FROM TWITTER</h5>
                             </div>
@@ -605,8 +611,8 @@
     <div class="footer">
         <div id="sect-14-cont" class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div>
+                <div class="col-md-12 d-flex">
+                    <div class="col-md-6">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                             <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                           </svg>
