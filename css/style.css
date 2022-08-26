@@ -90,7 +90,7 @@
 }
 
 
-hr {
+.mid-line {
     margin-top: 25px;
     width: 530px;
     border: .5px solid rgb(84, 84, 84);
@@ -205,6 +205,65 @@ hr {
 /* ------------------------------------------------- */
 /* Section 13 */
 
-#sect-13-cont ul{
+/* Fix */
+/* #sect-13-cont{
+    margin-top: 50px;
+    padding-top: 50px;
+} */
+
+#sect-13-cont ul {
     list-style-type: square;
+}
+
+/* Fix */
+#sect-13-cont h5 {
+    color: whitesmoke;
+}
+
+#sect-13-cont ul {
+    color: whitesmoke;
+}
+
+#sect-13-cont p {
+    color: whitesmoke;
+}
+
+#sect-13-cont {
+    background-color: #434b4d;
+}
+
+.facebook-promokit-highlight p span{
+    color: aqua;
+}
+
+figcaption{
+    text-align: center;
+}
+
+#facebook-cont figcaption {
+    color: whitesmoke;
+}
+
+#facebook-cont img{
+    margin-left: 8px;
+}
+
+.facebook-pics{
+    width: 100px;
+    height: auto;
+}
+
+/* ------------------------------------------------- */
+/* Section 14 Footer */
+
+#sect-14-cont {
+    padding-top: 15px;
+    background-color: #434b4d;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+#sect-14-cont svg{
+    color: rgb(168, 160, 160)
 }
