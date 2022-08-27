@@ -26,6 +26,10 @@
     color: rgb(114, 108, 108);
 }
 
+#top-nav a:hover{
+    color: #13bfcb;
+}
+
 #top-nav-login{
     margin-left: 90px;
 }
@@ -88,6 +92,10 @@
 
 #main-nav a {
     color: #434b4d;
+}
+
+#main-nav a:hover{
+    color: #13bfcb;
 }
 
 /* ------------------------------------------------- */
