@@ -33,6 +33,11 @@
 #top-nav-login{
     margin-left: 90px;
 }
+
+#top-nav-login a{
+    color: #13bfcb;
+}
+
 .header-text-blue {
     color: #13bfcb;
 }
